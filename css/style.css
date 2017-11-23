@@ -1,0 +1,51 @@
+body{
+  background-color: #cccccc;
+}
+
+.main .circle{
+  position: absolute;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("../img/disc.svg");
+  border-radius: 50%;
+}
+.round{
+  background-color: #c02327;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+.hour,.minute,.second{
+position: absolute;
+right: 0;
+bottom: 0;
+margin: auto;
+transform-origin: 300px 300px;
+left: 15%;
+top: 15%;
+}
+#hr{
+  background-image: url("../img/hour.svg") ;
+  background-repeat: no-repeat;
+
+}
+#min{
+  background-image: url("../img/min.svg") ;
+  background-repeat: no-repeat;
+}
+#sec{
+  background-image: url("../img/sec.svg") ;
+  background-repeat: no-repeat;
+  /*transition: transform .5s ease-in-out;*/
+}
